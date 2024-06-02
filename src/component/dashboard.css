@@ -1,6 +1,4 @@
-/* General Styles */
 .dashboard-container {
-
   margin: 0 auto;
   padding: 20px;
   font-family: Arial, sans-serif;
@@ -13,7 +11,6 @@
   color: #333;
 }
 
-/* Select Dropdown */
 .dashboard-select-container {
   display: flex;
   justify-content: center;
@@ -29,7 +26,6 @@
   text-align: center;
 }
 
-/* Charts Layout */
 .dashboard-charts {
   display: flex;
   flex-wrap: wrap;
@@ -45,8 +41,7 @@
   background-color: #f9f9f9;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* Ensure charts do not overflow on smaller screens */
-  overflow: hidden; /* Hide any overflow content */
+  overflow: hidden;
 }
 
 .dashboard-chart h4 {
@@ -54,39 +49,37 @@
   font-size: 1.2rem;
   color: #555;
 }
-/* Dark Theme Styles */
 .dark-theme {
-  background-color: #333; /* Dark background color */
-  color: #fff; /* Light text color */
+  background-color: #333; 
+  color: #fff; 
 }
 
 .dark-theme .dashboard-chart {
-  border-color: #ccc; /* Adjust border color for dark theme */
-  background-color: #444; /* Adjust chart background color for dark theme */
+  border-color: #ccc; 
+  background-color: #444;
 }
 .dark-theme .dashboard-title {
   color: white;
 }
 .dark-theme .dashboard-chart h4 {
-  color: white; /* Adjust heading text color for dark theme */
+  color: white;
 }
 
-/* Light Theme Styles */
 .light-theme {
-  background-color: #fff; /* Light background color */
-  color: #333; /* Dark text color */
+  background-color: #fff;
+  color: #333; 
 }
 
 .light-theme .dashboard-chart {
-  border-color: #ccc; /* Adjust border color for light theme */
-  background-color: #f9f9f9; /* Adjust chart background color for light theme */
+  border-color: #ccc; 
+  background-color: #f9f9f9; 
 }
 
 .light-theme .dashboard-chart h4 {
-  color: #555; /* Adjust heading text color for light theme */
+  color: #555; 
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   .dashboard-charts {
     flex-direction: column;
@@ -94,8 +87,8 @@
   }
 
   .dashboard-chart {
-    width: calc(100% - 20px); /* Take full width minus margin */
-    max-width: 400px; /* Limit maximum width for smaller screens */
+    width: calc(100% - 20px); 
+    max-width: 400px; 
     margin: 10px 0;
   }
 }

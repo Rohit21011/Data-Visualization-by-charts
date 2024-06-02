@@ -13,17 +13,17 @@
 }
 
 .dark-theme {
-  background-color: #333; /* Dark background color */
-  color:white; /* Light text color */
+  background-color: #333; 
+  color:white;
 }
 
 .dark-theme .dashboard-select,
 .dark-theme .dashboard-chart {
-  border-color: white; /* Adjust border color for dark theme */
+  border-color: white; 
 }
 
 .dark-theme .dashboard-chart {
-  background-color: #444; /* Adjust chart background color for dark theme */
+  background-color: #444; 
 }
 
 .dark-theme .theme-toggle-btn {
@@ -31,19 +31,18 @@
   color: #333;
 }
 
-/* Light Theme Styles */
 .light-theme {
-  background-color: #fff; /* Light background color */
-  color: #333; /* Dark text color */
+  background-color: #fff; 
+  color: #333; 
 }
 
 .light-theme .dashboard-select,
 .light-theme .dashboard-chart {
-  border-color: #ccc; /* Adjust border color for light theme */
+  border-color: #ccc; 
 }
 
 .light-theme .dashboard-chart {
-  background-color: #f9f9f9; /* Adjust chart background color for light theme */
+  background-color: #f9f9f9; 
 }
 
 .light-theme .theme-toggle-btn {
@@ -51,7 +50,6 @@
   color: #fff;
 }
 
-/* Toggle Button Styles */
 .switch {
   position: absolute;
   top: 40px;
@@ -101,7 +99,6 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   .dashboard-container {
     padding: 10px; 

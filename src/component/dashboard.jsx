@@ -1,7 +1,7 @@
 import  { useEffect, useState, useRef } from 'react';
 import { Chart, registerables } from 'chart.js';
 
-import data from '../dashboard.json'; // Import the JSON file
+import data from '../dashboard.json';
 import './dashboard.css';
 
 Chart.register(...registerables);
